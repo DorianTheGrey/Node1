@@ -3,11 +3,12 @@ const app = express();
 const port = 3000;
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+  // console.log(`Example app listening at http://localhost:${port}`);
 });
 
 app.get("/", (req, res) => {
-  res.send(`Welcome to my server! This is the homepage on port ${port}`);
+  // res.send(`Welcome to my server! This is the homepage on port ${port}`);
+  res.send(`Welcome to seidler.digital.`);
 });
 
 app.get("/:name", (req, res) => {
